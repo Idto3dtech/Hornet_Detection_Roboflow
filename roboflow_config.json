@@ -1,0 +1,10 @@
+{
+  "__comment1": "Obtain these values via Roboflow",
+  "ROBOFLOW_API_KEY": "xxxxxxxxxx",
+  "ROBOFLOW_MODEL": "xx-name--#",
+  "ROBOFLOW_SIZE": 416,
+  "DATASET_NAME": "your-dataset",
+  "LOCAL_SERVER": false,
+  "LAPLACIAN_THRESHOLD": 300,
+  "CONFIDENCE_THRESHOLD": 0.4
+}
