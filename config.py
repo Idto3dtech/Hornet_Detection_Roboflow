@@ -3,13 +3,13 @@ import json
 with open('roboflow_config.json') as f:
     config = json.load(f)
 
-    ROBOFLOW_API_KEY = config["ROBOFLOW_API_KEY"]
-    ROBOFLOW_MODEL = config["ROBOFLOW_MODEL"]
-    ROBOFLOW_SIZE = config["ROBOFLOW_SIZE"]
-    LOCAL_SERVER = config["LOCAL_SERVER"]
-    DATASET_NAME = config["DATASET_NAME"]
-    LAPLACIAN_THRESHOLD = config["LAPLACIAN_THRESHOLD"]
-    CONFIDENCE_THRESHOLD = config["CONFIDENCE_THRESHOLD"]
+    ROBOFLOW_API_KEY = config["KdNVXu0fIn7H8yhfAJ8j"]
+    ROBOFLOW_MODEL = config["asian-hornet-detection-a6ael-aogji/2"]
+    ROBOFLOW_SIZE = config["584"]
+    LOCAL_SERVER = config["false"]
+    DATASET_NAME = config["asian-hornet-detection-a6ael-aogji"]
+    LAPLACIAN_THRESHOLD = config["300"]
+    CONFIDENCE_THRESHOLD = config["0.4"]
 
 if not LOCAL_SERVER:
     infer_url = "".join([
