@@ -1,9 +1,9 @@
 {
   "__comment1": "Obtain these values via Roboflow",
-  "ROBOFLOW_API_KEY": "xxxxxxxxxx",
-  "ROBOFLOW_MODEL": "xx-name--#",
-  "ROBOFLOW_SIZE": 416,
-  "DATASET_NAME": "your-dataset",
+  "ROBOFLOW_API_KEY": "KdNVXu0fIn7H8yhfAJ8j",
+  "ROBOFLOW_MODEL": "asian-hornet-detection-a6ael-aogji/2",
+  "ROBOFLOW_SIZE": 584,
+  "DATASET_NAME": "asian-hornet-detection-a6ael-aogji",
   "LOCAL_SERVER": false,
   "LAPLACIAN_THRESHOLD": 300,
   "CONFIDENCE_THRESHOLD": 0.4
